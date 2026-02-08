@@ -88,6 +88,30 @@ function resetInfo() {
 
 const slider = document.getElementById("timeline");
 const year = document.getElementById("year");
+let isTimelineActive = false;
+
+function toggleTimeline() {
+    const timelineContainer = document.querySelector(".timeline-container");
+    isTimelineActive = !isTimelineActive;
+    
+    if (isTimelineActive) {
+        timelineContainer.classList.add("active");
+        // Activer le filtrage avec l'année actuelle
+        filterPointsByYear(parseInt(slider.value));
+    } else {
+        timelineContainer.classList.remove("active");
+        // Désactiver le filtrage - afficher tous les points
+        showAllPoints();
+    }
+}
+
+function showAllPoints() {
+    resetInfo();
+    const points = document.querySelectorAll(".point");
+    points.forEach(point => {
+        point.style.display = "block";
+    });
+}
 
 function filterPointsByYear(selectedYear) {
     // Réinitialiser les infos affichées avant de filtrer
@@ -110,7 +134,10 @@ function filterPointsByYear(selectedYear) {
 slider.addEventListener("input", () => {
     const selectedYear = parseInt(slider.value);
     year.textContent = selectedYear;
-    filterPointsByYear(selectedYear);
+    // Ne filtrer que si la timeline est active
+    if (isTimelineActive) {
+        filterPointsByYear(selectedYear);
+    }
 });
 
 // Initialiser le filtrage au chargement de la page

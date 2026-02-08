@@ -89,17 +89,22 @@
             <button class="button" onclick="resetInfo()">
                 محو المعلومات
             </button>
+            <button class="button timeline-toggle-btn" onclick="toggleTimeline()">
+                تفعيل / إلغاء الخط الزمني
+            </button>
         </div>
 
-        <div class="timeline-container" dir="ltr">
-            <input
-                type="range"
-                id="timeline"
-                min="1830"
-                max="1919"
-                value="1830"
-            />
-            <span id="year">1830</span>
+        <div class="timeline-wrapper">
+            <div class="timeline-container" dir="ltr">
+                <input
+                    type="range"
+                    id="timeline"
+                    min="1830"
+                    max="1919"
+                    value="1830"
+                />
+                <span id="year">1830</span>
+            </div>
         </div>
 
         <script src="script.js"></script>
