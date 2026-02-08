@@ -101,7 +101,7 @@ body {
     transform: translateY(15%);
 }
 
-.reset-btn {
+.button {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -115,12 +115,12 @@ body {
     z-index: 20;
 }
 
-.reset-btn:hover {
+.button:hover {
     background: rgba(0, 0, 0, 0.8);
 }
 
 .timeline-container {
-    width: 400px;
+    width: 600px;
     margin: 80px auto;
     display: flex;
     align-items: center;

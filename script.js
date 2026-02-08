@@ -89,6 +89,32 @@ function resetInfo() {
 const slider = document.getElementById("timeline");
 const year = document.getElementById("year");
 
+function filterPointsByYear(selectedYear) {
+    // Réinitialiser les infos affichées avant de filtrer
+    resetInfo();
+    
+    const points = document.querySelectorAll(".point");
+    
+    points.forEach(point => {
+        const minYear = parseInt(point.getAttribute("data-min-year"));
+        const maxYear = parseInt(point.getAttribute("data-max-year"));
+        
+        if (selectedYear >= minYear && selectedYear <= maxYear) {
+            point.style.display = "block";
+        } else {
+            point.style.display = "none";
+        }
+    });
+}
+
 slider.addEventListener("input", () => {
-    year.textContent = slider.value;
+    const selectedYear = parseInt(slider.value);
+    year.textContent = selectedYear;
+    filterPointsByYear(selectedYear);
 });
+
+// Initialiser le filtrage au chargement de la page
+window.addEventListener("DOMContentLoaded", () => {
+    filterPointsByYear(parseInt(slider.value));
+});
+
