@@ -123,21 +123,29 @@ body {
     top: 70px;
 }
 
-.timeline-container {
-    width: 600px;
-    margin: 80px auto;
+.timeline-wrapper {
     display: none;
-    align-items: center;
-    gap: 15px;
-    opacity: 0;
-    transform: translateY(-20px);
-    transition: opacity 0.3s ease, transform 0.3s ease;
+    background: white;
+    border-radius: 18px;
+    padding: 40px;
+    margin: 80px auto;
+    max-width: 700px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    background-image: url('images/timeline_bg_image/timeline_bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.timeline-container.active {
+.timeline-wrapper.active {
+    display: block;
+}
+
+.timeline-container {
+    width: 99%;
     display: flex;
-    opacity: 1;
-    transform: translateY(0);
+    align-items: center;
+    gap: 30px;
 }
 
 input[type="range"] {
