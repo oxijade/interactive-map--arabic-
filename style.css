@@ -627,7 +627,7 @@ input[type="range"]::-moz-range-thumb {
 
 /* ========== BOUTONS ========== */
 .dark {
-    background-color: #121212;
+    background-color: #282828;
     color: white;
 }
 
