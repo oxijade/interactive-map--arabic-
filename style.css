@@ -624,3 +624,13 @@ input[type="range"]::-moz-range-thumb {
         margin-left: 10px;
     }
 }
+
+/* ========== BOUTONS ========== */
+.dark {
+    background-color: #121212;
+    color: white;
+}
+
+.dark a {
+    color: #4da3ff;
+}
