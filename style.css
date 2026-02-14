@@ -370,7 +370,7 @@ input[type="range"]::-moz-range-thumb {
     font-weight: bold;
 }
 
-/* ========== STYLES POUR LES ACCORDÃ‰ONS - TAB3 ========== */
+/* ========== STYLES POUR LES ACCORDAIONS - TAB3 ========== */
 
 .political-section {
     max-width: 1000px;
@@ -394,7 +394,7 @@ input[type="range"]::-moz-range-thumb {
     gap: 20px;
 }
 
-/* AccordÃ©on item */
+/* Accordaion item */
 .accordion-item {
     background: white;
     border-radius: 15px;
@@ -407,7 +407,7 @@ input[type="range"]::-moz-range-thumb {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
-/* Header de l'accordÃ©on */
+/* Header de l'accordaion */
 .accordion-header {
     display: flex;
     align-items: center;
@@ -489,7 +489,7 @@ input[type="range"]::-moz-range-thumb {
     transform: rotate(180deg);
 }
 
-/* Contenu de l'accordÃ©on */
+/* Contenu de l'accordaion */
 .accordion-content {
     max-height: 0;
     overflow: hidden;
@@ -542,7 +542,7 @@ input[type="range"]::-moz-range-thumb {
     font-style: italic;
 }
 
-/* Section dÃ©tails */
+/* Section details */
 .accordion-details {
     display: flex;
     flex-direction: column;
