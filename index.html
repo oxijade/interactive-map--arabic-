@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <title>interactive map (arabic)</title>
         <link rel="stylesheet" href="style.css" />
+        <link rel="icon" type="image/x-icon" href="images/icon_image/icon.ico">
     </head>
 
     <body>
@@ -16,6 +17,9 @@
             </button>
             <button class="tab-button" onclick="openTab(event, 'tab3')">
                 📚 المقاومات السياسية
+            </button>
+            <button class="tab-button" onclick="openTab(event, 'tab4')">
+                📖 الموسوعة التاريخية
             </button>
         </div>
 
@@ -404,7 +408,7 @@
                                     event,
                                     'مقاومة جنود الصبايحية',
                                     'جنود الصبايحية',
-                                    'سوق اهراس، الطارف، نمامشة',
+                                    'سوق اهراس، الطارف، النمامشة',
                                     '1871',
                                     '1871',
                                     'انتفاضة قام بها بعض الجنود الجزائريين في الجيش الفرنسي. رفضوا أوامر الاحتلال وثاروا دفاعًا عن كرامتهم',
@@ -1064,6 +1068,827 @@
                 </div>
 
                 <h2><br /></h2>
+            </div>
+        </div>
+
+        <div id="tab4" class="tab-content">
+            <div class="content-wrapper">
+                <div class="political-section">
+                    <h1 class="section-title">
+                        📖 الموسوعة التاريخية للمقاومة الجزائرية
+                    </h1>
+
+                    <div class="accordion-container">
+                        <!-- 1. القادة والزعماء -->
+                        <div class="accordion-item revolutionary">
+                            <div
+                                class="accordion-header"
+                                onclick="toggleAccordion(this)"
+                            >
+                                <div class="accordion-left">
+                                    <div class="accordion-icon">👤</div>
+                                    <div class="accordion-title-group">
+                                        <h3>القادة والزعماء</h3>
+                                        <p class="accordion-subtitle">
+                                            قادة المقاومة المسلحة والسياسية
+                                        </p>
+                                    </div>
+                                </div>
+                                <span class="accordion-arrow">▼</span>
+                            </div>
+
+                            <div class="accordion-content">
+                                <div class="accordion-inner">
+                                    <div class="accordion-details">
+                                        <div class="detail-block">
+                                            <h4>
+                                                ⚔️ قادة المقاومة المنظمة
+                                                (1830-1848)
+                                            </h4>
+                                            <ul>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/عبد_القادر_الجزائري"
+                                                        target="_blank"
+                                                        >الأمير عبد القادر</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/أحمد_باي_بن_محمد_الشريف"
+                                                        target="_blank"
+                                                        >أحمد باي</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="detail-block">
+                                            <h4>
+                                                🗡️ قادة المقاومات غير المنظمة
+                                            </h4>
+                                            <ul>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/فاطمة_نسومر"
+                                                        target="_blank"
+                                                        >لالة فاطمة نسومر</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/الشريف_بوبغلة"
+                                                        target="_blank"
+                                                        >الشيخ بوبغلة</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/محمد_المقراني"
+                                                        target="_blank"
+                                                        >الشيخ المقراني</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/الشيخ_الحداد"
+                                                        target="_blank"
+                                                        >الشيخ الحداد</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/الشريف_بومعزة"
+                                                        target="_blank"
+                                                        >بومعزة (محمد بن
+                                                        عبدالله)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/الناصر_بن_شهرة"
+                                                        target="_blank"
+                                                        >بن ناصر بن شهرة</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/بوعمامة"
+                                                        target="_blank"
+                                                        >الشيخ بوعمامة</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/الشريف_بوشوشة"
+                                                        target="_blank"
+                                                        >محمد بن التومي
+                                                        بوشوشة</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/الشريف_محمد_أمزيان"
+                                                        target="_blank"
+                                                        >محمد امزيان بن عبد
+                                                        الرحمان</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/آمود_أغ_المختار"
+                                                        target="_blank"
+                                                        >الشيخ آمود</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="detail-block">
+                                            <h4>📚 قادة الحركة السياسية</h4>
+                                            <ul>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/خالد_بن_الهاشمي_بن_عبد_القادر_الجزائري"
+                                                        target="_blank"
+                                                        >الأمير خالد بن الهاشمي
+                                                        (تيار المساواة)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/مصالي_الحاج"
+                                                        target="_blank"
+                                                        >مصالي الحاج (التيار
+                                                        الثوري)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/فرحات_عباس"
+                                                        target="_blank"
+                                                        >فرحات عباس (التيار
+                                                        الليبرالي)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/عبد_الحميد_بن_باديس"
+                                                        target="_blank"
+                                                        >عبد الحميد بن باديس
+                                                        (تيار الإصلاح الديني)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/البشير_الإبراهيمي"
+                                                        target="_blank"
+                                                        >محمد البشير الإبراهيمي
+                                                        (تيار الإصلاح الديني)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/العربي_التبسي"
+                                                        target="_blank"
+                                                        >العربي التبسي (تيار
+                                                        الإصلاح الديني)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/عمار_أوزقان"
+                                                        target="_blank"
+                                                        >عمار آوزغان (التيار
+                                                        الشيوعي)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/علي_بومنجل"
+                                                        target="_blank"
+                                                        >علي بومنجل (التيار
+                                                        الشيوعي)</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 2. الأماكن والمعالم -->
+                        <div class="accordion-item equality">
+                            <div
+                                class="accordion-header"
+                                onclick="toggleAccordion(this)"
+                            >
+                                <div class="accordion-left">
+                                    <div class="accordion-icon">🏛️</div>
+                                    <div class="accordion-title-group">
+                                        <h3>الأماكن والمعالم التاريخية</h3>
+                                        <p class="accordion-subtitle">
+                                            مواقع المعارك والمقاومات
+                                        </p>
+                                    </div>
+                                </div>
+                                <span class="accordion-arrow">▼</span>
+                            </div>
+
+                            <div class="accordion-content">
+                                <div class="accordion-inner">
+                                    <div class="accordion-details">
+                                        <div class="detail-block">
+                                            <h4>🏙️ المدن الرئيسية</h4>
+                                            <ul>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/قسنطينة"
+                                                        target="_blank"
+                                                        >قسنطينة - مركز مقاومة
+                                                        أحمد باي</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/معسكر_(مدينة)"
+                                                        target="_blank"
+                                                        >معسكر - مبايعة الأمير
+                                                        عبد القادر</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/وهران"
+                                                        target="_blank"
+                                                        >وهران - معاهدة دي ميشال
+                                                        (1834)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/ولاية_سيدي_بلعباس"
+                                                        target="_blank"
+                                                        >سيدي بلعباس - استسلام
+                                                        الأمير (1847)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/ولاية_تيارت"
+                                                        target="_blank"
+                                                        >تيارت - مقاومة
+                                                        بوعمامة</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/تلمسان"
+                                                        target="_blank"
+                                                        >تلمسان - بني سناسن</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/ولاية_مستغانم"
+                                                        target="_blank"
+                                                        >مستغانم</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/مليانة"
+                                                        target="_blank"
+                                                        >مليانة</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/عين_بسام"
+                                                        target="_blank"
+                                                        >البويرة - عين بسام</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="detail-block">
+                                            <h4>⛰️ المناطق الجغرافية</h4>
+                                            <ul>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/منطقة_القبائل"
+                                                        target="_blank"
+                                                        >منطقة القبائل الكبرى</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/الأوراس_(منطقة)"
+                                                        target="_blank"
+                                                        >جبال الأوراس</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/الصحراء_الجزائرية"
+                                                        target="_blank"
+                                                        >الصحراء الجزائرية</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/جبال_الظهرة"
+                                                        target="_blank"
+                                                        >منطقة الظهرة</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/التيطري"
+                                                        target="_blank"
+                                                        >التيطري</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/جبال_هقار"
+                                                        target="_blank"
+                                                        >الهقار</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/ورقلة"
+                                                        target="_blank"
+                                                        >ورقلة</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/وادي_ميزاب"
+                                                        target="_blank"
+                                                        >ميزاب</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/تندوف"
+                                                        target="_blank"
+                                                        >تندوف</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/عين_الصفراء"
+                                                        target="_blank"
+                                                        >عين الصفراء</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/ولاية_عين_صالح"
+                                                        target="_blank"
+                                                        >عين صالح</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/بني_عباس"
+                                                        target="_blank"
+                                                        >بني عباس</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="detail-block">
+                                            <h4>⚔️ مواقع المعارك</h4>
+                                            <ul>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/غليزان"
+                                                        target="_blank"
+                                                        >الخنق - غليزان (معركة
+                                                        سيدي يحيى 1839)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/تاقدمت"
+                                                        target="_blank"
+                                                        >تاكدمت - تيارت (سقوط
+                                                        الزمالة 1843)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/وادي_تافنة"
+                                                        target="_blank"
+                                                        >نهر التافنة (معاهدة
+                                                        تافنة 1837)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/بسكرة"
+                                                        target="_blank"
+                                                        >واحة الزعاطشة</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/سوق_أهراس"
+                                                        target="_blank"
+                                                        >سوق اهراس</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/الطارف"
+                                                        target="_blank"
+                                                        >الطارف</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/النمامشة"
+                                                        target="_blank"
+                                                        >النمامشة</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/الميلية"
+                                                        target="_blank"
+                                                        >الميلية</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 3. الأحداث والمعارك -->
+                        <div class="accordion-item liberal">
+                            <div
+                                class="accordion-header"
+                                onclick="toggleAccordion(this)"
+                            >
+                                <div class="accordion-left">
+                                    <div class="accordion-icon">⚡</div>
+                                    <div class="accordion-title-group">
+                                        <h3>الأحداث والمعارك التاريخية</h3>
+                                        <p class="accordion-subtitle">
+                                            أهم المعارك والانتفاضات (1830-1922)
+                                        </p>
+                                    </div>
+                                </div>
+                                <span class="accordion-arrow">▼</span>
+                            </div>
+
+                            <div class="accordion-content">
+                                <div class="accordion-inner">
+                                    <div class="accordion-details">
+                                        <div class="detail-block">
+                                            <h4>
+                                                🗓️ مقاومة الأمير عبد القادر
+                                                (1832-1847)
+                                            </h4>
+                                            <ul>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/مبايعة_الأمير_عبد_القادر_(1833)"
+                                                        target="_blank"
+                                                        >مبايعة الأمير (1832)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/معاهدة_دي_ميشال"
+                                                        target="_blank"
+                                                        >معاهدة دي ميشال
+                                                        (1834)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/معاهدة_تافنة"
+                                                        target="_blank"
+                                                        >معاهدة تافنة (1837)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/معركة_الزمالة"
+                                                        target="_blank"
+                                                        >سقوط الزمالة (1843)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/معاهدة_لاموريسيير"
+                                                        target="_blank"
+                                                        >استسلام الأمير
+                                                        (1847)</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="detail-block">
+                                            <h4>
+                                                🗓️ مقاومة أحمد باي (1830-1848)
+                                            </h4>
+                                            <ul>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/معركة_قسنطينة_الأولى_نوفمبر_1836"
+                                                        target="_blank"
+                                                        >الهجوم الفرنسي الأول -
+                                                        فشل (1836)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/معركة_قسنطينة_الثانية"
+                                                        target="_blank"
+                                                        >سقوط قسنطينة (1837)</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="detail-block">
+                                            <h4>
+                                                🔥 الانتفاضات الكبرى (1849-1871)
+                                            </h4>
+                                            <ul>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/مقاومة_الزعاطشة"
+                                                        target="_blank"
+                                                        >انتفاضة الزعاطشة
+                                                        (1849)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/ثورة_أولاد_سيدي_الشيخ"
+                                                        target="_blank"
+                                                        >مقاومة اولاد سيدي الشيخ
+                                                        (1864-1880)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/مقاومة_الشيخ_المقراني"
+                                                        target="_blank"
+                                                        >مقاومة المقراني والشيخ
+                                                        الحداد (1871)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/فاطمة_نسومر#مقاومتها_للاحتلال"
+                                                        target="_blank"
+                                                        >مقاومة القبائل - بوبغلة
+                                                        ونسومر (1851-1857)</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="detail-block">
+                                            <h4>
+                                                🌄 المقاومات غير المنظمة
+                                                (1845-1922)
+                                            </h4>
+                                            <ul>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/ثورة_بومعزة"
+                                                        target="_blank"
+                                                        >مقاومة بومعزة
+                                                        (1845-1847)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/الناصر_بن_شهرة#ملخص_جهاده"
+                                                        target="_blank"
+                                                        >مقاومة بن ناصر بن شهرة
+                                                        (1846-1870)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/الشريف_بوشوشة#المسيرة_النضالية"
+                                                        target="_blank"
+                                                        >مقاومة بوشوشة
+                                                        (1870-1875)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/مقاومة_الصبياحية_ومحمد_الكبلوتي_(1871)"
+                                                        target="_blank"
+                                                        >انتفاضة جنود الصبايحية
+                                                        (1871)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/ثورة_1871_في_جيجل_والشمال_القسنطيني"
+                                                        target="_blank"
+                                                        >مقاومة الشمال القسنطيني
+                                                        (1871)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/بوعمامة#الظروف_التي_سبقت_مقاومة_الشيخ_بوعمامة"
+                                                        target="_blank"
+                                                        >مقاومة بوعمامة
+                                                        (1881-1904)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/طوارق#مقاومة_الطوارق_للاستعمار_الفرنسي"
+                                                        target="_blank"
+                                                        >مقاومة التوارق
+                                                        (1880-1922)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/آمود_أغ_المختار#مقاومته_للمستعمر_الفرنسي"
+                                                        target="_blank"
+                                                        >مقاومة الصحراء
+                                                        (1902-1919)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/ثورة_بني_شقران"
+                                                        target="_blank"
+                                                        >مقاومة بني شقران
+                                                        (1914)</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 4. الأحزاب والحركات السياسية -->
+                        <div class="accordion-item religious">
+                            <div
+                                class="accordion-header"
+                                onclick="toggleAccordion(this)"
+                            >
+                                <div class="accordion-left">
+                                    <div class="accordion-icon">🏛️</div>
+                                    <div class="accordion-title-group">
+                                        <h3>الأحزاب والحركات السياسية</h3>
+                                        <p class="accordion-subtitle">
+                                            التنظيمات السياسية (1919-1946)
+                                        </p>
+                                    </div>
+                                </div>
+                                <span class="accordion-arrow">▼</span>
+                            </div>
+
+                            <div class="accordion-content">
+                                <div class="accordion-inner">
+                                    <div class="accordion-details">
+                                        <div class="detail-block">
+                                            <h4>⚖️ تيار المساواة</h4>
+                                            <ul>
+                                                <li>
+                                                    <a href="#" target="_blank"
+                                                        >حزب الإخاء الجزائري
+                                                        (1919)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    القائد: الأمير خالد بن
+                                                    الهاشمي
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="detail-block">
+                                            <h4>🚩 التيار الثوري الاستقلالي</h4>
+                                            <ul>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/نجم_شمال_إفريقيا"
+                                                        target="_blank"
+                                                        >نجم شمال أفريقيا (20
+                                                        يونيو 1926)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/حزب_الشعب_الجزائري"
+                                                        target="_blank"
+                                                        >حزب الشعب الجزائري (11
+                                                        مارس 1937)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/حركة_الانتصار_للحريات_الديمقراطية"
+                                                        target="_blank"
+                                                        >حركة انتصار الحريات
+                                                        الديمقراطية (1946)</a
+                                                    >
+                                                </li>
+                                                <li>القائد: مصالي الحاج</li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="detail-block">
+                                            <h4>
+                                                🤝 التيار الليبرالي الإدماجي
+                                            </h4>
+                                            <ul>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/فديرالية_المنتخبين_المسلمين_الجزائريين"
+                                                        target="_blank"
+                                                        >فيديرالية المنتخبين
+                                                        المسلمين (1927)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/الاتحاد_الديمقراطي_للبيان_الجزائري"
+                                                        target="_blank"
+                                                        >الاتحاد الديمقراطي
+                                                        للبيان الجزائري
+                                                        (1946)</a
+                                                    >
+                                                </li>
+                                                <li>القائد: فرحات عباس</li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="detail-block">
+                                            <h4>📚 تيار الإصلاح الديني</h4>
+                                            <ul>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/جمعية_العلماء_المسلمين_الجزائريين"
+                                                        target="_blank"
+                                                        >جمعية العلماء المسلمين
+                                                        الجزائريين (5 ماي
+                                                        1931)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    القادة: عبد الحميد بن باديس،
+                                                    محمد البشير الإبراهيمي،
+                                                    العربي التبسي
+                                                </li>
+                                                <li>
+                                                    الشعار: "الإسلام ديننا،
+                                                    العربية لغتنا، الجزائر
+                                                    وطننا"
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="detail-block">
+                                            <h4>⚒️ التيار الشيوعي</h4>
+                                            <ul>
+                                                <li>
+                                                    <a
+                                                        href="https://ar.wikipedia.org/wiki/الحزب_الشيوعي_الجزائري"
+                                                        target="_blank"
+                                                        >الحزب الشيوعي الجزائري
+                                                        (25 يونيو 1936)</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    القادة: عمار آوزغان، علي
+                                                    بومنجل
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
