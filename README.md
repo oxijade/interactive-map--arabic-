@@ -5,4 +5,4 @@ A small project featuring the resistance movements and battles that took place i
 The interface is in Arabic.
 
 Website link:
-[DEMO](https://oxijade.github.io/interactive-map--arabic-/)
+[DEMO](https://oxijade.github.io/Algerian-Resistance/)
